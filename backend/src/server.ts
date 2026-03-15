@@ -15,7 +15,7 @@ app.use(express.json())
 app.use(cookieParser())
 
 app.use(cors({
- origin:"https://task-manager-chi-vert-20.vercel.app/",
+ origin:"https://task-manager-chi-vert-20.vercel.app",
  credentials:true
 }))
 
