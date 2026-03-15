@@ -1,6 +1,6 @@
 import bcrypt from "bcrypt"
-import { prisma } from "../prisma/client"
-import { generateToken } from "../utils/jwt"
+import { prisma } from "../prisma/client.js"
+import { generateToken } from "../utils/jwt.js"
 
 export const register = async(req:any,res:any)=>{
 
