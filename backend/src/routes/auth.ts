@@ -4,7 +4,7 @@ import {
  register,
  login,
  getCurrentUser
-} from "../controllers/auth"
+} from "../controllers/auth.js"
 
 const router = Router()
 
