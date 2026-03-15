@@ -1,9 +1,9 @@
 {
+"type": "module",
  "scripts": {
   "dev": "tsx watch src/server.ts",
-  "type": "module",
   "start": "node dist/server.js",
-  "build":"tsc"
+  "build":"prisma generate && tsc"
  },
  "dependencies": {
   "@prisma/adapter-neon": "^7.5.0",
